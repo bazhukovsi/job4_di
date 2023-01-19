@@ -8,6 +8,10 @@ public class StartUI {
         this.store = store;
     }
 
+    public void setStore(Store store) {
+        this.store = store;
+    }
+
     public void add(String value) {
         store.add(value);
     }
