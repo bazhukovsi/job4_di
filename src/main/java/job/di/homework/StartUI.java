@@ -1,5 +1,8 @@
 package job.di.homework;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class StartUI {
 
     private ConsoleInput consoleInput;
