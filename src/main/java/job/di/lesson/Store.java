@@ -1,4 +1,4 @@
-package job.di;
+package job.di.lesson;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package job.di;
+package job.di.homework;
 
 public class StartUI {
 
@@ -8,8 +8,7 @@ public class StartUI {
         this.consoleInput = consoleInput;
     }
 
-    public void askStr(String question) {
-        consoleInput.askStr(question);
+    public void askStr(String message) {
+        consoleInput.askStr(message);
     }
-
 }

@@ -1,4 +1,4 @@
-package job.di;
+package job.di.lesson;
 
 import java.lang.reflect.Constructor;
 import java.util.ArrayList;
@@ -27,7 +27,7 @@ public class Context {
         } catch (Exception e) {
             throw new IllegalStateException("Coun't create an instance of : " + cl.getCanonicalName(), e);
         }
-}
+    }
 
     public <T> T get(Class<T> inst) {
         return (T) els.get(inst.getCanonicalName());

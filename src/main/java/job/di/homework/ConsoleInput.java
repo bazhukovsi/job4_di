@@ -1,4 +1,4 @@
-package job.di;
+package job.di.homework;
 
 import java.util.Scanner;
 
